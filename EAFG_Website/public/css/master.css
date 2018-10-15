@@ -13,15 +13,35 @@ body{
   padding-top: 10px;
   padding-bottom: 10px;
 }
-@font-face{
-  font-family: titlefont;
-  src:url(fonts/expressway rg.ttf);
+@font-face {
+    font-family: titlefont;
+    src: url(fonts/expressway rg.ttf);
 }
-.sectionNavbar h2 {
+.sectionNavbar h2{
   font-family: titlefont;
+  font-size: 3.3rem;
 }
 .sectionNavbar a{
   color: #4b565e;
+}
+.sectionNavbar a:hover{
+  color: #4b565e;
+  text-decoration: none;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #cf1f2e;
+}
+.outlinebutton{
+  background-color: white;
+  color: #cf1f2e;
+  border: 3px solid #cf1f2e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.outlinebutton:hover{
+  background-color: #cf1f2e;
+  color: white;
 }
 .sectionSlidebar{
   margin-bottom: 30px;

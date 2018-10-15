@@ -17,7 +17,7 @@
     <div class="sectionHeader">
       <div class="container">
         <h5 class="float-right m-auto pt-1">enquiries@eastanglianfasciaandguttering.com</h5>
-        <h3 class="ml-3 mb-0">01603 443830</h3>
+        <h3 class="mb-0">01603 443830</h3>
       </div>
     </div>
   </section>
@@ -28,25 +28,28 @@
       <div class="container">
         <div class="row">
           <div class="col-3">
-            <h2 class="ml-3 mb-0">EAFG</h2>
-            <p class="pl-3 mb-0 titletext">East Anglia Fascia & Guttering Ltd</p>
+            <h2 class="mb-0 pb-0">EAFG</h2>
+            <p class="pl-0 mb-0 titletext">East Anglia Fascia & Guttering Ltd</p>
           </div>
-          <div class="col-9 m-auto pt-2 pr-2 pl-0">
+          <div class="col-9 pt-2 pr-2 pl-0 align-self-center">
             <div class="row">
-              <div class="col p-0 text-center">
+              <div class="col p-0 text-center align-self-center">
                 <a href="#">Home</a>
               </div>
-              <div class="col p-0 text-center">
+              <div class="col p-0 text-center align-self-center">
                 <a href="#">Our Services</a>
               </div>
-              <div class="col p-0 text-center">
+              <div class="col p-0 text-center align-self-center">
                 <a href="#">Project Gallery</a>
               </div>
-              <div class="col p-0 text-center">
+              <div class="col p-0 text-center align-self-center">
                 <a href="#">Composite Doors</a>
               </div>
-              <div class="col p-0 text-center">
+              <div class="col p-0 text-center align-self-center">
                 <a href="#">Contact Us</a>
+              </div>
+              <div class="col p-0 text-center align-self-center">
+                <button class="outlinebutton" type="button" name="button">Book an appointment</button>
               </div>
             </div>
           </div>
@@ -143,26 +146,23 @@
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img style="height:170px" class="d-block w-100" src="{{asset('images/img_whiteout.jpg')}}" alt="First slide">
-      <div class="carousel-caption pt-1 w-100 align-items-center" style="left:0px; top:0px">
-    <h5 class="text-dark text-left mt-0 text-center">Mr White, Norwich</h5>
-    <p class="text-dark font-italic text-left mt-0 mb-0 text-center">Excellent job, total satisfaction. The attention to details by your installer was exceptional.</p>
+      <div class="w-100 pt-3 pb-4" style="padding-left:30px;">
+    <h5 class="text-dark p-0 m-0">Mr White, Norwich</h5>
+    <p class="text-dark font-italic p-0 m-0">Excellent job, total satisfaction. The attention to details by your installer was exceptional.</p>
   </div>
     </div>
 
-    <div class="carousel-item">
-      <img style="height:170px" class="d-block w-100" src="{{asset('images/img_whiteout.jpg')}}" alt="Second slide">
-      <div class="carousel-caption pt-1 w-100" style="left:0px; top:0px">
-        <h5 class="text-dark text-left mt-0 text-center">Mr White, Norwich</h5>
-        <p class="text-dark font-italic text-left mt-0 mb-0 text-center">I spoke to Anglian Windows, Everest and Windows Plus UK (last!) and I am very pleased I took the advise I read online to go with a local company. I don't have enough time to describe the whole process (which took several months), but long story short - Windows Plus were better by miles! The sales process was honest, informed and short (Everest's salesperson was in my house for 4 hours!). I told Adrian what I was looking to achieve and he nailed it within 20 mins. The windows were ready to install a week later. The quality is great and the fitters were polite, tidy and quick. Not only this, but Windows Plus was literally half the price of Anglian and Everest. I'll be asking Windows Plus back in due course for some follow up work. Thanks!</p>
+    <div class="carousel-item ">
+      <div class="w-100 pt-3 pb-4" style="padding-left:30px;">
+    <h5 class="text-dark p-0 m-0">Mr White, Norwich</h5>
+    <p class="text-dark font-italic p-0 m-0">Excellent job, total satisfaction. The attention to details by your installer was exceptional.</p>
   </div>
     </div>
 
-    <div class="carousel-item">
-      <img style="height:170px" class="d-block w-100" src="{{asset('images/img_whiteout.jpg')}}" alt="Third slide">
-      <div class="carousel-caption pt-1 w-100" style="left:0px; top:0px">
-        <h5 class="text-dark text-left text-center">Mr White, Norwich</h5>
-        <p class="text-dark font-italic text-left text-center">Excellent job, total satisfaction. The attention to details by your installer was exceptional.</p>
+    <div class="carousel-item ">
+      <div class="w-100 pt-3 pb-4" style="padding-left:30px;">
+    <h5 class="text-dark p-0 m-0">Mr White, Norwich</h5>
+    <p class="text-dark font-italic p-0 m-0">Excellent job, total satisfaction. The attention to details by your installer was exceptional.</p>
   </div>
     </div>
   </div>
