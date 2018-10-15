@@ -143,26 +143,26 @@
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img style="height:150px" class="d-block w-100" src="{{asset('images/img_whiteout.jpg')}}" alt="First slide">
-      <div class="carousel-caption pt-1">
-    <h5 class="text-dark text-left">Mr White, Norwich</h5>
-    <p class="text-dark font-italic text-left">Excellent job, total satisfaction. The attention to details by your installer was exceptional.</p>
+      <img style="height:170px" class="d-block w-100" src="{{asset('images/img_whiteout.jpg')}}" alt="First slide">
+      <div class="carousel-caption pt-1 w-100 align-items-center" style="left:0px; top:0px">
+    <h5 class="text-dark text-left mt-0 text-center">Mr White, Norwich</h5>
+    <p class="text-dark font-italic text-left mt-0 mb-0 text-center">Excellent job, total satisfaction. The attention to details by your installer was exceptional.</p>
   </div>
     </div>
 
     <div class="carousel-item">
-      <img style="height:150px" class="d-block w-100" src="{{asset('images/img_whiteout.jpg')}}" alt="Second slide">
-      <div class="carousel-caption pt-1">
-        <h5 class="text-dark text-left">Mr S Balaam, Norfolk</h5>
-        <p class="text-dark font-italic text-left">I would like to express how impressed I was with the total process, from beginning to end, of my dealings with your company. I was particularly impressed with the manner in which all of those involved communicated with each other and coordinated the work for a seamless and very efficient completion. I am also very grateful to Steve Cutler, your designated builder, who outlined his plans clearly and executed it to a very high standard. I shall </p>
+      <img style="height:170px" class="d-block w-100" src="{{asset('images/img_whiteout.jpg')}}" alt="Second slide">
+      <div class="carousel-caption pt-1 w-100" style="left:0px; top:0px">
+        <h5 class="text-dark text-left mt-0 text-center">Mr White, Norwich</h5>
+        <p class="text-dark font-italic text-left mt-0 mb-0 text-center">I spoke to Anglian Windows, Everest and Windows Plus UK (last!) and I am very pleased I took the advise I read online to go with a local company. I don't have enough time to describe the whole process (which took several months), but long story short - Windows Plus were better by miles! The sales process was honest, informed and short (Everest's salesperson was in my house for 4 hours!). I told Adrian what I was looking to achieve and he nailed it within 20 mins. The windows were ready to install a week later. The quality is great and the fitters were polite, tidy and quick. Not only this, but Windows Plus was literally half the price of Anglian and Everest. I'll be asking Windows Plus back in due course for some follow up work. Thanks!</p>
   </div>
     </div>
 
     <div class="carousel-item">
-      <img style="height:150px" class="d-block w-100" src="{{asset('images/img_whiteout.jpg')}}" alt="Third slide">
-      <div class="carousel-caption pt-1">
-        <h5 class="text-dark text-left">Mr & Mrs Ogden, Norfolk</h5>
-        <p class="text-dark font-italic text-left">My wife and myself were impressed by the standard of workmanship, in particular the care with which your employees, Gary and Wayne, went about their tasks when newly windowing our house. Who said the British artisan had lost his measure! Our best wishes to your diligent workforce and to you as a company. Finn, our dog, was equally impressed. You could tell by his joyous bark and the saluting of his tail whenever Wayne and Gary appeared. Thanks to you all! P.S. Please pass on our best wishes to two fine workmen. You are fortunate to have them. May they have the opportunity to pass on their skills to a younger generation!</p>
+      <img style="height:170px" class="d-block w-100" src="{{asset('images/img_whiteout.jpg')}}" alt="Third slide">
+      <div class="carousel-caption pt-1 w-100" style="left:0px; top:0px">
+        <h5 class="text-dark text-left text-center">Mr White, Norwich</h5>
+        <p class="text-dark font-italic text-left text-center">Excellent job, total satisfaction. The attention to details by your installer was exceptional.</p>
   </div>
     </div>
   </div>

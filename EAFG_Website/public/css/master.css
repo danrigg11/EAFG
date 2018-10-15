@@ -10,13 +10,18 @@ body{
 .sectionNavbar{
   color: #4b565e;
   background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@font-face{
+  font-family: titlefont;
+  src:url(fonts/expressway rg.ttf);
+}
+.sectionNavbar h2 {
+  font-family: titlefont;
 }
 .sectionNavbar a{
   color: #4b565e;
-}
-.sectionNavbar{
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 .sectionSlidebar{
   margin-bottom: 30px;
