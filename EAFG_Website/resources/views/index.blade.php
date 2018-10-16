@@ -19,7 +19,7 @@
         <div class="row">
           <div class="col-3">
 
-            <h3 class="mb-0"><img style="height:30px" src="{{asset('images/icons8-phone-filled-50.png')}}" alt="Email">01603 443830</h3>
+            <h3 class="mb-0" style="font-family: numberfont, serif !important;"><img style="height:30px" src="{{asset('images/icons8-phone-filled-50.png')}}" alt="Email">01603 443830</h3>
           </div>
           <div class="ml-auto col-7">
             <ul class="float-right">
@@ -39,8 +39,8 @@
       <div class="container">
         <div class="row">
           <div class="col-3">
-            <h2 class="mb-0 pb-0">EAFG</h2>
-            <p class="pl-0 mb-0 titletext">East Anglia Fascia & Guttering Ltd</p>
+            <h2 class="mb-0 pb-0"style="font-family: titlefont, serif !important;">EAFG</h2>
+            <p class="pl-0 mb-0 titletext"style="font-family: titlefont, serif !important;">East Anglia Fascia & Guttering Ltd</p>
           </div>
           <div class="col-9 pt-2 pr-2 pl-0 align-self-center">
             <div class="row">
@@ -240,7 +240,7 @@
               <img class="" style="height:20px" src="{{asset('images/icons8-phone-filled-grey-50.png')}}" alt="Email">
             </div>
             <div class="col-10 pl-0">
-              <p class="mb-0 footerEmailText">01603 443830</p>
+              <p class="mb-0 footerEmailText" style="font-family: numberfont, serif !important;">01603 443830</p>
               <p class="mb-0 footerEmailText">enquiries@eastanglianfasciaandguttering.com</p>
             </div>
           </div>

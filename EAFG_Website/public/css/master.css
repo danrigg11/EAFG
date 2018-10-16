@@ -1,6 +1,22 @@
 body{
   margin: 0;
 }
+h1, h2, h3, h4, h5, a ,p ,li{
+  font-family: Raleway, serif !important;
+}
+
+@font-face {
+    font-family: numberfont;
+    src: url('/fonts/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: titlefont;
+    src: url('/fonts/NotoSerif-Regular.ttf');
+}
+@font-face {
+    font-family: Raleway;
+    src: url('/fonts/Raleway-Regular.ttf');
+}
 .sectionHeader{
   padding-top: 10px;
   padding-bottom: 10px;
@@ -19,13 +35,12 @@ body{
   padding-top: 10px;
   padding-bottom: 10px;
 }
-@font-face {
-    font-family: titlefont;
-    src: url(fonts/expressway rg.ttf);
-}
 .sectionNavbar h2{
-  font-family: titlefont;
+  font-family: titlefont, serif;
   font-size: 3.3rem;
+}
+.sectionNavbar a, p{
+  font-family: Raleway, serif;
 }
 .sectionNavbar a{
   color: #4b565e;
