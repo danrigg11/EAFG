@@ -7,6 +7,12 @@ body{
   background-color: #4b565e;
   color: white;
 }
+.sectionHeader ul{
+  list-style: none;
+}
+.sectionHeader li{
+  display: inline-block;
+}
 .sectionNavbar{
   color: #4b565e;
   background-color: white;
@@ -31,7 +37,7 @@ body{
   border-bottom: 3px solid #cf1f2e;
 }
 .outlinebutton{
-  background-color: white;
+  background-color: Transparent;
   color: #cf1f2e;
   border: 3px solid #cf1f2e;
   padding-top: 10px;
@@ -63,8 +69,31 @@ body{
 box-shadow: 0 4px 8px 0 rgb(136,136,136), 0 6px 20px 0 rgb(136,136,136);
 top:-30px;
 }
-
-
+.sectionContactUsContainer{
+  background-color: #222127;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.sectionContactUsContainer p{
+  color: #aaa;
+}
+.sectionPrimaryFooter{
+  background-color: #39383d;
+}
+.sectionPrimaryFooter h4{
+  color: #aaa;
+}
+.sectionPrimaryFooter p{
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+.sectionPrimaryFooter li{
+  color: #aaa;
+  font-size: 0.8rem;
+}
+.footerEmailText{
+  font-size: 0.8rem;
+}
 
 @media only screen and (min-width: 1000px) {
   .sliderh {
@@ -78,5 +107,8 @@ top:-30px;
   }
   .titletext{
     font-size: 0.8rem;
+  }
+  .googlemap{
+    height:450px;
   }
 }
