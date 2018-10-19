@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, a ,p ,li{
     font-family: Raleway;
     src: url('/fonts/Raleway-Regular.ttf');
 }
+@font-face {
+    font-family: RalewayItalic;
+    src: url('/fonts/Raleway-Italic.ttf');
+}
 .sectionHeader{
   padding-top: 10px;
   padding-bottom: 10px;
@@ -84,6 +88,10 @@ h1, h2, h3, h4, h5, a ,p ,li{
 box-shadow: 0 4px 8px 0 rgb(136,136,136), 0 6px 20px 0 rgb(136,136,136);
 top:-30px;
 }
+.sectionReviews p{
+  font-family: RalewayItalic, serif!important;
+  color: red;
+}
 .sectionContactUsContainer{
   background-color: #222127;
   padding-top: 40px;
@@ -108,22 +116,47 @@ top:-30px;
 }
 .footerEmailText{
   font-size: 0.8rem;
+  color: #aaa;
 }
 
-@media only screen and (min-width: 1000px) {
-  .sliderh {
-    max-height: 650px;
-    overflow: hidden;
+/* Media Qqueries */
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .sectionNavbarLarge{
+    display: none;
   }
-  .img-h{
-    position: relative;
-    top: -50px;
-    height: 800px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sectionNavbarLarge{
+    display: none;
   }
-  .titletext{
-    font-size: 0.8rem;
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sectionNavbarLarge{
+    display: none;
   }
   .googlemap{
-    height:450px;
+    height: 600px;
+  }
+  .sectionScrollBarText{
+    font-size: 1.4rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .sectionNavbarSmall{
+    display: none;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .sectionNavbarSmall{
+    display: none;
   }
 }
