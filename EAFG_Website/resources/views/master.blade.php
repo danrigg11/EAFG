@@ -46,7 +46,7 @@
                 <a class="" href="{{ url('/') }}">Home</a>
               </div>
               <div class="col p-0 text-center align-self-center">
-                <a href="#">Our Services</a>
+                <a href="{{ url('/services') }}">Our Services</a>
               </div>
               <div class="col p-0 text-center align-self-center">
                 <a href="#">Project Gallery</a>
@@ -87,7 +87,7 @@
             <a class="nav-link" href="{{ url('/') }}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Services</a>
+            <a class="nav-link" href="{{ url('/services') }}">Our Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Project Gallery</a>
@@ -177,11 +177,11 @@
             <h4 class="mb-0">OPENING HOURS</h4>
             <hr style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; margin-right:100%;float:left">
             <div class="float-left">
-              <p class="mb-1">Mon: 08:00-17:00</p>
-              <p class="mb-1">Tues: 08:00-17:00</p>
-              <p class="mb-1">Wed: 08:00-17:00</p>
-              <p class="mb-1">Thur: 08:00-17:00</p>
-              <p class="mb-1">Fri: 08:00-17:00</p>
+              <p class="mb-1" style="font-family: numberfont, serif !important;">Mon: <span>08:00 -17:00</span></p>
+              <p class="mb-1" style="font-family: numberfont, serif !important;">Tues: <span>08:00 -17:00</span></p>
+              <p class="mb-1" style="font-family: numberfont, serif !important;">Wed: <span>08:00 -17:00</span></p>
+              <p class="mb-1" style="font-family: numberfont, serif !important;">Thur: <span>08:00 -17:00</span></p>
+              <p class="mb-1" style="font-family: numberfont, serif !important;">Fri: <span>08:00 -17:00</span></p>
               <p class="mb-1">Sat: Closed</p>
               <p class="mb-1">Sun: Closed</p>
             </div>

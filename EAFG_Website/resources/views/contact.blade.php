@@ -12,10 +12,10 @@
 
   <!--Contact Us-->
   <section class="">
-    <div class="container-fluid">
+    <div class="container-fluid mt-4">
       <div class="row">
         <div class="col-12 mb-3">
-          <h1 class="text-center">Contact us</h1>
+          <h1 class="text-center display-1">Contact us</h1>
           <p class="text-center">We're here to help, so please find the most relevant way to get in touch below for help with your order and after-sales care.</p>
         </div>
       </div>
@@ -48,6 +48,27 @@
           <div class="col-12 text-center">
             <p class="mb-3">Like us on facebook</p>
             <div class="fb-like" data-href="https://www.facebook.com/eastanglianfasciaandgutteringLtd/" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-3 col-sm-12 col-xs-12 mb-3">
+          <div class="col-12">
+            <p class="mb-4 text-danger w-100">By Appointment Only</p>
+            <p class="m-0">East anglia fascia and guttering Ltd</p>
+            <p class="m-0">St Marys Grove</p>
+            <p class="m-0">Norwich</p>
+            <p class="m-0">Norfolk</p>
+            <p class="m-0" style="font-family: numberfont, serif !important;">NR7 8DL</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12 mb-3">
+          <div class="col-12">
+            <p class="mb-3 text-danger">Company Information</p>
+            <p class="m-0 mb-1">Company No. <span style="font-family: numberfont, serif !important;">11587834</span></p>
+            <p class="m-0 text-danger">Registered Office:</p>
+            <p class="m-0">East anglia fascia and guttering Ltd</p>
+            <p class="m-0">St Marys Grove, Norwich, Norfolk, <span style="font-family: numberfont, serif !important;">NR7 8DL</span></p>
           </div>
         </div>
       </div>

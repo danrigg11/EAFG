@@ -160,3 +160,70 @@ top:-30px;
     display: none;
   }
 }
+
+/*  Gallery Css */
+* {
+    box-sizing: border-box;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column1 {
+    display: inline-block;
+    padding: 0px;
+}
+.column2 {
+    display: inline-block;
+    padding: 0px;
+}
+
+/* Style the images inside the grid */
+.col img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.col img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.col img:hover {
+    opacity: 1;
+}
+.col img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container1 {
+    position: relative;
+}
+.container2 {
+    position: relative;
+}
+
+/* Expanding image text */
+#imgtext1 {
+    color: black;
+    font-size: 20px;
+}
+#imgtext2 {
+    color: black;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn1 {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
