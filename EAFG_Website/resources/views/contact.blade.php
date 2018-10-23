@@ -52,6 +52,7 @@
         </div>
       </div>
       <div class="row justify-content-md-center">
+        <hr style="width:100%; height:2px; border-top: 2px solid #cf1f2e;">
         <div class="col-md-3 col-sm-12 col-xs-12 mb-3">
           <div class="col-12">
             <p class="mb-4 text-danger w-100">By Appointment Only</p>

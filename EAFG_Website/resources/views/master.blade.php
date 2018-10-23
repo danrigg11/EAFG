@@ -32,7 +32,7 @@
   </section>
 
   <!--Navbar-Large-->
-  <section class="sticky-top sectionNavbarLarge">
+  <section class="sticky-top sectionNavbarLarge" style="border-bottom: 2px solid #cf1f2e">
     <div class="sectionNavbar">
       <div class="container-fluid">
         <div class="row">
@@ -51,9 +51,7 @@
               <div class="col p-0 text-center align-self-center">
                 <a href="#">Project Gallery</a>
               </div>
-              <div class="col p-0 text-center align-self-center">
-                <a href="#">Composite Doors</a>
-              </div>
+
               <div class="col p-0 text-center align-self-center">
                 <a href="{{ url('contact') }}">Contact Us</a>
               </div>
@@ -68,7 +66,7 @@
   </section>
 
   <!--Navbar-Small-->
-  <section class="sectionNavbarSmall">
+  <section class="sectionNavbarSmall" style="border-bottom: 2px solid #cf1f2e">
     <nav class="navbar navbar-expand-xs navbar-light sticky-top sectionNavbar">
       <div class="row">
         <div class="col-12">
@@ -92,9 +90,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Project Gallery</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Composite Doors</a>
-          </li>
+          
           <li class="nav-item">
             <a class="nav-link" href="{{ url('contact') }}">Contact Us</a>
           </li>

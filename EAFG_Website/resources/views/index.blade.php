@@ -8,22 +8,25 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            
           </ol>
           <div class="carousel-inner sliderh">
             <div class="carousel-item active">
-              <img class="d-block w-100 img-h" src="{{asset('images/slide_gutter.png')}}" alt="First slide">
+              <img class="d-block w-100 img-slider" src="{{asset('images/slide_gutter.png')}}" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100 img-h" src="{{asset('images/slide_house_fascia_boards.png')}}" alt="Third slide">
+              <img class="d-block w-100 img-slider" src="{{asset('images/slide_house_fascia_boards.png')}}" alt="Third slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100 img-h" src="{{asset('images/slide_fascia_boards.png')}}" alt="Second slide">
+              <img class="d-block w-100 img-slider" src="{{asset('images/slide_fascia_boards.png')}}" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100 img-h" src="{{asset('images/slide_fascia_boards_2.png')}}" alt="Third slide">
+              <img class="d-block w-100 img-slider" src="{{asset('images/slide_fascia_boards_2.png')}}" alt="Third slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100 img-h" src="{{asset('images/slide_waterandwaste.png')}}" alt="Third slide">
+              <img class="d-block w-100 img-slider" src="{{asset('images/slide_waterandwaste.png')}}" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -52,16 +55,16 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-3">
-            <img class="img-fluid onHover" src="{{asset('images/img_fascia_2.png')}}">
+            <a href="{{ url('/services') }}"><img class="img-fluid onHover" src="{{asset('images/img_fascia_2.png')}}"></a>
           </div>
           <div class="col-3">
-            <img class="img-fluid onHover" src="{{asset('images/img_repair.png')}}">
+            <a href="{{ url('/services') }}"><img class="img-fluid onHover" src="{{asset('images/img_repair.png')}}"></a>
           </div>
           <div class="col-3">
-            <img class="img-fluid onHover" src="{{asset('images/img_door.png')}}">
+            <a href="#"><img class="img-fluid onHover" src="{{asset('images/img_door.png')}}"></a>
           </div>
           <div class="col-3">
-            <img class="img-fluid onHover" src="{{asset('images/img_request.png')}}">
+            <a href="{{ url('/contact') }}"><img class="img-fluid onHover" src="{{asset('images/img_request.png')}}"></a>
           </div>
         </div>
         <div class="row">
