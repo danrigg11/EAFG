@@ -118,6 +118,12 @@ top:-30px;
   font-size: 0.8rem;
   color: #aaa;
 }
+.servicesImg li{
+  display: inline-block;
+}
+.servicesImg img{
+  
+}
 
 /* Media Qqueries */
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -203,19 +209,19 @@ top:-30px;
 }
 
 /* Style the images inside the grid */
-.col img {
+.cols img {
     opacity: 0.8;
     cursor: pointer;
 }
-.col img {
+.cols img {
     opacity: 0.8;
     cursor: pointer;
 }
 
-.col img:hover {
+.cols img:hover {
     opacity: 1;
 }
-.col img:hover {
+.cols img:hover {
     opacity: 1;
 }
 

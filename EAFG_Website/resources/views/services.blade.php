@@ -129,36 +129,36 @@
     <div class="row">
       <!--Fascia Board-->
       <div class="col-sm-12 col-md-6" style="padding-right:40px;">
-        <hr style="width:50%; height:2px; border-top: 2px solid #cf1f2e;">
+        <hr style="width:100%; height:2px; border-top: 2px solid #cf1f2e;">
         <div class="text-center">
           <div class="container1">
             <h2>Fascia Board</h2>
-            <img id="expandedImg1" style="width:35%" src="{{asset('images/FasciaBoardCream.jpg')}}" >
+            <img id="expandedImg1" style="width:50%" src="{{asset('images/FasciaBoardCream.jpg')}}" >
             <div id="imgtext1">Cream</div>
           </div>
         </div>
 
         <div class="col m-auto">
           <div class="row">
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/FasciaBoardWhite.jpg')}}" alt="White" style="width:100%" onclick="myFunction1(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/FasciaBoardRosewood.jpg')}}" alt="Rosewood" style="width:100%" onclick="myFunction1(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/FasciaBoardIrishOak.jpg')}}" alt="Irish Oak" style="width:100%" onclick="myFunction1(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/FasciaBoardOak.jpg')}}" alt="Oak" style="width:100%" onclick="myFunction1(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/FasciaBoardCream.jpg')}}" alt="Cream" style="width:100%" onclick="myFunction1(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/FasciaBoardBlack.jpg')}}" alt="Black" style="width:100%" onclick="myFunction1(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/FasciaBoardAnthraciteGrey.jpg')}}" alt="Anthracite Grey" style="width:100%" onclick="myFunction1(this);">
             </div>
           </div>
@@ -167,83 +167,70 @@
 
 
 
-      <!--Soffit Styles-->
+      <!--Hollow Soffit-->
       <div class="col-sm-12 col-md-6" style="padding-right:40px;">
-        <hr style="width:50%; height:2px; border-top: 2px solid #cf1f2e;">
+        <hr style="width:100%; height:2px; border-top: 2px solid #cf1f2e;">
         <div class="text-center">
           <div class="container2">
-            <h2>Soffit Styles</h2>
-            <img id="expandedImg2" style="width:35%" src="{{asset('images/soffit_Board_Anthracite_Grey.jpg')}}" >
+            <h2>Hollow Soffit</h2>
+            <img id="expandedImg2" style="width:50%" src="{{asset('images/soffit_Board_Anthracite_Grey.jpg')}}" >
             <div id="imgtext2">Anthracite Grey</div>
           </div>
         </div>
 
         <div class="col m-auto">
           <div class="row">
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/soffit_Board_White.jpg')}}" alt="White" style="width:100%" onclick="myFunction2(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/soffit_Board_Anthracite_Grey.jpg')}}" alt="Anthracite Grey" style="width:100%" onclick="myFunction2(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/soffit_Board_Black.jpg')}}" alt="Black" style="width:100%" onclick="myFunction2(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/soffit_Board_White_Ash.jpg')}}" alt="White Ash" style="width:100%" onclick="myFunction2(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/soffit_Board_Cream.jpg')}}" alt="Cream" style="width:100%" onclick="myFunction2(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/soffit_Board_Golden_Oak.jpg')}}" alt="Golden Oak" style="width:100%" onclick="myFunction2(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/soffit_Board_Irish_Oak.jpg')}}" alt="Irish Oak" style="width:100%" onclick="myFunction2(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
+            <div class="col-3 text-center" style="padding:0px">
               <img src="{{asset('images/soffit_Board_Rosewood.jpg')}}" alt="Rosewood" style="width:100%" onclick="myFunction2(this);">
             </div>
           </div>
         </div>
       </div>
 
-      <!--Cladding Styles-->
+
+
+      <!--Single Sided Cladding-->
       <div class="col-sm-12 col-md-6" style="padding-right:40px;">
-        <hr style="width:50%; height:2px; border-top: 2px solid #cf1f2e;">
+        <hr style="width:100%; height:2px; border-top: 2px solid #cf1f2e;">
         <div class="text-center">
-          <div class="container2">
-            <h2>Soffit Styles</h2>
-            <img id="expandedImg2" style="width:35%" src="{{asset('images/soffit_Board_Anthracite_Grey.jpg')}}" >
-            <div id="imgtext2">Anthracite Grey</div>
+          <div class="container3">
+            <h2>Single Sided Cladding</h2>
+            <img id="expandedImg3" style="width:50%" src="{{asset('images/Shiplap-cladding_White.jpg')}}" >
+            <div id="imgtext3">White</div>
           </div>
         </div>
 
         <div class="col m-auto">
           <div class="row">
-            <div class="col text-center" style="padding:0px">
-              <img src="{{asset('images/soffit_Board_White.jpg')}}" alt="White" style="width:100%" onclick="myFunction2(this);">
+            <div class="col-4 text-center" style="padding:0px">
+              <img src="{{asset('images/Shiplap-cladding_White.jpg')}}" alt="White" style="width:100%" onclick="myFunction3(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
-              <img src="{{asset('images/soffit_Board_Anthracite_Grey.jpg')}}" alt="Anthracite Grey" style="width:100%" onclick="myFunction2(this);">
+            <div class="col-4 text-center" style="padding:0px">
+              <img src="{{asset('images/shiplap-cladding_Light-oak.jpg')}}" alt="Light Oak" style="width:100%" onclick="myFunction3(this);">
             </div>
-            <div class="col text-center" style="padding:0px">
-              <img src="{{asset('images/soffit_Board_Black.jpg')}}" alt="Black" style="width:100%" onclick="myFunction2(this);">
-            </div>
-            <div class="col text-center" style="padding:0px">
-              <img src="{{asset('images/soffit_Board_White_Ash.jpg')}}" alt="White Ash" style="width:100%" onclick="myFunction2(this);">
-            </div>
-            <div class="col text-center" style="padding:0px">
-              <img src="{{asset('images/soffit_Board_Cream.jpg')}}" alt="Cream" style="width:100%" onclick="myFunction2(this);">
-            </div>
-            <div class="col text-center" style="padding:0px">
-              <img src="{{asset('images/soffit_Board_Golden_Oak.jpg')}}" alt="Golden Oak" style="width:100%" onclick="myFunction2(this);">
-            </div>
-            <div class="col text-center" style="padding:0px">
-              <img src="{{asset('images/soffit_Board_Irish_Oak.jpg')}}" alt="Irish Oak" style="width:100%" onclick="myFunction2(this);">
-            </div>
-            <div class="col text-center" style="padding:0px">
-              <img src="{{asset('images/soffit_Board_Rosewood.jpg')}}" alt="Rosewood" style="width:100%" onclick="myFunction2(this);">
+            <div class="col-4 text-center" style="padding:0px">
+              <img src="{{asset('images/shiplap-cladding_Rosewood.jpg')}}" alt="Rosewood" style="width:100%" onclick="myFunction3(this);">
             </div>
           </div>
         </div>
