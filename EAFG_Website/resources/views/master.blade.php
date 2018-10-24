@@ -66,7 +66,7 @@
   </section>
 
   <!--Navbar-Small-->
-  <section class="sectionNavbarSmall" style="border-bottom: 2px solid #cf1f2e">
+  <section class="sticky-top sectionNavbarSmall" style="border-bottom: 2px solid #cf1f2e">
     <nav class="navbar navbar-expand-xs navbar-light sticky-top sectionNavbar">
       <div class="row">
         <div class="col-12">
@@ -90,7 +90,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Project Gallery</a>
           </li>
-          
+
           <li class="nav-item">
             <a class="nav-link" href="{{ url('contact') }}">Contact Us</a>
           </li>
