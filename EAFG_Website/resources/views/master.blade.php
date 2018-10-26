@@ -49,11 +49,11 @@
                 <a href="{{ url('/services') }}">Our Services</a>
               </div>
               <div class="col p-0 text-center align-self-center">
-                <a href="#">Project Gallery</a>
+                <a href="{{ url('/projects') }}">Project Gallery</a>
               </div>
 
               <div class="col p-0 text-center align-self-center">
-                <a href="{{ url('contact') }}">Contact Us</a>
+                <a href="{{ url('/contact') }}">Contact Us</a>
               </div>
               <div class="col p-0 text-center align-self-center sectionNavbarButton">
                 <button onclick="window.location.href='{{ url('contact') }}'" class="outlinebutton" type="button" name="button">Book an appointment</button>
@@ -85,10 +85,10 @@
             <a class="nav-link" href="{{ url('/') }}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ url('/services') }}">Our Services</a>
+            <a class="nav-link" href="{{ url('services') }}">Our Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Project Gallery</a>
+            <a class="nav-link" href="{{ url('projects') }}">Project Gallery</a>
           </li>
 
           <li class="nav-item">
@@ -132,16 +132,17 @@
   <section class="sectionPrimaryFooter">
     <div class="container-fluid">
       <div class="row pt-5 pb-5">
+
         <div class="col-3">
           <h4 class="mb-0">ABOUT US</h4>
-          <hr style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; padding-bottom: 05px; float:left">
+          <hr style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; margin-right:100%;float:left">
           <div class="float-left">
             <p>With over 40 years of fitting experience the Father and Son team at East Anglian Fascia and Guttering provide a premier service specializing in residential and commercial roofing and roofline services, we are dedicated to providing customer service that is second to none.</p>
           </div>
         </div>
         <div class="col-3">
           <h4 class="mb-0">INSTANT ONLINE</h4>
-          <hr style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; float:left">
+          <hr style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; margin-right:100%;float:left">
           <div class="float-left">
             <p>Book an appointment today to transform your roofline.</p>
             <button onclick="window.location.href='{{ url('contact') }}'" class="outlinebutton" type="button" name="button">Book an appointment</button>
