@@ -8,13 +8,29 @@
         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 xl-2 mb-3">
           <div class="card border-secondary" style="">
             <!-- Button trigger modal -->
-            <a href="#" data-toggle="modal" data-target="#exampleModal"><img class="card-img-top d-block w-100" src="{{asset('images/IMG_20181024_122606.jpg')}}" alt="#"></a>
+            <a href="#" data-toggle="modal" data-target="#exampleModal1"><img class="card-img-top d-block w-100" src="{{asset('images/IMG_20181024_122606.jpg')}}" alt="Fascia Norwich"></a>
           </div>
         </div>
+
+        <!--Image While loop -->
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 xl-2 mb-3">
+          <div class="card border-secondary" style="">
+            <!-- Button trigger modal -->
+            <a href="#" data-toggle="modal" data-target="#exampleModal3"><img class="card-img-top d-block w-100" src="{{asset('images/IMG_20180926_112134.jpg')}}" alt="Fascia Norwich"></a>
+          </div>
         </div>
 
+        <!--Image While loop -->
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 xl-2 mb-3">
+          <div class="card border-secondary" style="">
+            <!-- Button trigger modal -->
+            <a href="#" data-toggle="modal" data-target="#exampleModal2"><img class="card-img-top d-block w-100" src="{{asset('images/IMG_20180926_112049.jpg')}}" alt="Fascia Norwich"></a>
+          </div>
+        </div>
+
+
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -28,6 +44,40 @@
             </div>
           </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img class="card-img-top d-block w-100" src="{{asset('images/IMG_20180926_112134.jpg')}}" alt="#">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img class="card-img-top d-block w-100" src="{{asset('images/IMG_20180926_112049.jpg')}}" alt="#">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
         <!-- Pagination -->
         <div class="row">

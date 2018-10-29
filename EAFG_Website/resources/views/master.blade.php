@@ -163,11 +163,11 @@
             <hr style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; margin-right:100%;float:left">
             <div class="float-left">
               <a style="text-decoration: none;" href="{{ url('/') }}"><p class="mb-1">Home</p></a>
-              <a style="text-decoration: none;" href="#"><p class="mb-1">Roofline</p></a>
-              <a style="text-decoration: none;" href="#"><p class="mb-1">Doors</p></a>
-              <a style="text-decoration: none;" href="#"><p class="mb-1">Project Gallery</p></a>
+              <a style="text-decoration: none;" href="{{ url('/services') }}"><p class="mb-1">Roofline</p></a>
+              <a style="text-decoration: none;" href="{{ url('/services') }}"><p class="mb-1">EPDM</p></a>
+              <a style="text-decoration: none;" href="{{ url('/projects') }}"><p class="mb-1">Project Gallery</p></a>
               <a style="text-decoration: none;" href="{{ url('contact') }}"><p class="mb-1">Contact</p></a>
-              <a style="text-decoration: none;" href="#"><p class="mb-1">Cookie Policy</p></a>
+              <a style="text-decoration: none;" href="{{ url('/') }}"><p class="mb-1">Cookie Policy</p></a>
             </div>
           </div>
           <div class="col-3">

@@ -347,8 +347,25 @@
 
 <!--EPDM Section-->
 <div id="epdmSection" style="display: none;">
-  <h1>EPDM</h1>
-</div>
+  <div class="container">
+    <h1>EPDM</h1>
+    <p>Our flat roofs are manufactured by one of the largest EPDM manufacturers in the world with upto a 50 year life expectancy.</p>
+    <p>The EPDM membraine is strong, lightweight and a great solution for a flat roof renovation or a new flat roof installations. It is completely UV stable which means there is no requirement for a top coat.</p>
+    <ul>
+      <li>Little or no maintenance roofing system</li>
+      <li>Highly flexible</li>
+      <li>Economical</li>
+      <li>No moss or algae growth</li>
+    </ul>
+
+      <img class="d-block w-100 mb-3" src="{{asset('images/img_EPDM_2.jpg')}}" alt="EPDM Roof 1">
+
+      <img class="d-block w-100 mb-3" src="{{asset('images/img_EPDM_1.png')}}" alt="Second slide roofline">
+
+
+
+  </div>
+  </div>
 
 
 
