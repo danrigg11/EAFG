@@ -10,7 +10,7 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            
+
           </ol>
           <div class="carousel-inner sliderh">
             <div class="carousel-item active">
@@ -61,7 +61,7 @@
             <a href="{{ url('/services') }}"><img class="img-fluid onHover" src="{{asset('images/img_repair.png')}}"></a>
           </div>
           <div class="col-3">
-            <a href="#"><img class="img-fluid onHover" src="{{asset('images/img_door.png')}}"></a>
+            <a href="{{ url('/services') }}"><img class="img-fluid onHover" src="{{asset('images/img_EPDM_1.png')}}"></a>
           </div>
           <div class="col-3">
             <a href="{{ url('/contact') }}"><img class="img-fluid onHover" src="{{asset('images/img_request.png')}}"></a>
@@ -78,7 +78,7 @@
           </div>
           <div class="col-3">
             <hr style="width:50%; height:2px; border-top: 2px solid #cf1f2e;">
-            <h4 class="text-center">Doors</h4>
+            <h4 class="text-center">EPDM Roof</h4>
           </div>
           <div class="col-3">
             <hr style="width:50%; height:2px; border-top: 2px solid #cf1f2e;">
