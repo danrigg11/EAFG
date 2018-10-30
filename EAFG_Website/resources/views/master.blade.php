@@ -133,16 +133,24 @@
     <div class="container-fluid">
       <div class="row pt-5 pb-5">
 
-        <div class="col-3">
+        <div class="col-3" onmouseover="mouseOverAbout()" onmouseout="mouseOutAbout()">
           <h4 class="mb-0">ABOUT US</h4>
-          <hr style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; margin-right:100%;float:left">
+          <hr id="OverAbout" style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; margin-right:100%;float:left;-webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 2s; /* Safari */
+    -webkit-transition-delay: 0s; /* Safari */
+    transition-property: width;
+    transition-duration: 2s;">
           <div class="float-left">
             <p>With over 40 years of fitting experience the Father and Son team at East Anglian Fascia and Guttering provide a premier service specializing in residential and commercial roofing and roofline services, we are dedicated to providing customer service that is second to none.</p>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-3" onmouseover="mouseOverBook()" onmouseout="mouseOutBook()">
           <h4 class="mb-0">INSTANT ONLINE</h4>
-          <hr style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; margin-right:100%;float:left">
+          <hr id="OverBook" style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; margin-right:100%;float:left;-webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 2s; /* Safari */
+    -webkit-transition-delay: 0s; /* Safari */
+    transition-property: width;
+    transition-duration: 2s;">
           <div class="float-left">
             <p>Book an appointment today to transform your roofline.</p>
             <button onclick="window.location.href='{{ url('contact') }}'" class="outlinebutton" type="button" name="button">Book an appointment</button>
@@ -158,9 +166,13 @@
               <p><a href="https://maps.google.com/?cid=6855326840263418360" target="_blank" style="color:white">View all our Reviews</a></p>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-3" onmouseover="mouseOverLinks()" onmouseout="mouseOutLinks()">
             <h4 class="mb-0">QUICK LINKS</h4>
-            <hr style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; margin-right:100%;float:left">
+            <hr id="OverLinks" style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; margin-right:100%;float:left;-webkit-transition-property: width; /* Safari */
+      -webkit-transition-duration: 2s; /* Safari */
+      -webkit-transition-delay: 0s; /* Safari */
+      transition-property: width;
+      transition-duration: 2s;">
             <div class="float-left">
               <a style="text-decoration: none;" href="{{ url('/') }}"><p class="mb-1">Home</p></a>
               <a style="text-decoration: none;" href="{{ url('/services') }}"><p class="mb-1">Roofline</p></a>
@@ -170,9 +182,13 @@
               <a style="text-decoration: none;" href="{{ url('/') }}"><p class="mb-1">Cookie Policy</p></a>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-3" onmouseover="mouseOverHours()" onmouseout="mouseOutHours()">
             <h4 class="mb-0">OPENING HOURS</h4>
-            <hr style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; margin-right:100%;float:left">
+            <hr id="OverHours" style="height:2px; border-top: 3px solid #cf1f2e; width:25%; margin-top:0px; margin-right:100%;float:left;-webkit-transition-property: width; /* Safari */
+      -webkit-transition-duration: 2s; /* Safari */
+      -webkit-transition-delay: 0s; /* Safari */
+      transition-property: width;
+      transition-duration: 2s;">
             <div class="float-left">
               <p class="mb-1" style="font-family: numberfont, serif !important;">Mon: <span>08:00 -17:00</span></p>
               <p class="mb-1" style="font-family: numberfont, serif !important;">Tues: <span>08:00 -17:00</span></p>
@@ -195,6 +211,36 @@
         </div>
       </div>
     </section>
+    <script>
+function mouseOverAbout() {
+    document.getElementById("OverAbout").style.width = "100%";
+}
+
+function mouseOutAbout() {
+    document.getElementById("OverAbout").style.width = "25%";
+}
+function mouseOverBook() {
+    document.getElementById("OverBook").style.width = "100%";
+}
+
+function mouseOutBook() {
+    document.getElementById("OverBook").style.width = "25%";
+}
+function mouseOverLinks() {
+    document.getElementById("OverLinks").style.width = "100%";
+}
+
+function mouseOutLinks() {
+    document.getElementById("OverLinks").style.width = "25%";
+}
+function mouseOverHours() {
+    document.getElementById("OverHours").style.width = "100%";
+}
+
+function mouseOutHours() {
+    document.getElementById("OverHours").style.width = "25%";
+}
+</script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
