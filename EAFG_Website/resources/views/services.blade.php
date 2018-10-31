@@ -1,4 +1,9 @@
 @extends('master')
+
+<!-- Define variabes for SEO -->
+@section('pageKeywords','east anglia, fascia, guttering, roofline, soffit, epdm')
+@section('pageDescription','East Anglia Fascia and Guttering, services and catelog listing.')
+
 @section('content')
   <script>
   function rooflineOptionFunction() {
@@ -81,7 +86,7 @@
 
       <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="card" style="width: 18rem; margin-bottom:30px; width:100%">
-          <img class="card-img-top" src="{{asset('images/img_roofline_menu_2.jpg')}}" alt="Card image cap">
+          <img class="card-img-top" src="{{asset('images/img_roofline_menu_2.jpg')}}" alt="roofline replacement">
           <div class="card-body">
             <h5 class="card-title">Roofline</h5>
             <p class="card-text">Ideal for both new homes and replacement projects.</p>
@@ -118,7 +123,7 @@
 
       <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="card" style="width: 18rem; margin-bottom:30px; width:100%">
-          <img class="card-img-top" src="{{asset('images/img_roofline_Menu.jpg')}}" alt="Card image cap">
+          <img class="card-img-top" src="{{asset('images/img_roofline_Menu.jpg')}}" alt="roofline repair">
           <div class="card-body">
             <h5 class="card-title">Roofline Repair</h5>
             <p class="card-text">Ideal for both new homes and replacement projects.</p>
@@ -129,7 +134,7 @@
 
       <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="card" style="width: 18rem; margin-bottom:30px; width:100%">
-          <img class="card-img-top" src="{{asset('images/img_EPDM_Menu.jpg')}}" alt="Card image cap">
+          <img class="card-img-top" src="{{asset('images/img_EPDM_Menu.jpg')}}" alt="epdm roofs">
           <div class="card-body">
             <h5 class="card-title">EPDM Roofs</h5>
             <p class="card-text">Ideal for both new homes and replacement projects.</p>
@@ -168,7 +173,7 @@
         <div class="text-center">
           <div class="container1">
             <h2>Fascia Board</h2>
-            <img id="expandedImg1" style="width:50%" src="{{asset('images/FasciaBoardCream.jpg')}}" >
+            <img id="expandedImg1" style="width:50%" src="{{asset('images/FasciaBoardCream.jpg')}}" alt="cream fascia board">
             <div id="imgtext1">Cream</div>
           </div>
         </div>
@@ -208,7 +213,7 @@
         <div class="text-center">
           <div class="container2">
             <h2>Soffit Board</h2>
-            <img id="expandedImg2" style="width:50%" src="{{asset('images/soffit_Board_Anthracite_Grey.jpg')}}" >
+            <img id="expandedImg2" style="width:50%" src="{{asset('images/soffit_Board_Anthracite_Grey.jpg')}}" alt="grey Soffit Board">
             <div id="imgtext2">Anthracite Grey</div>
           </div>
         </div>
@@ -251,7 +256,7 @@
         <div class="text-center">
           <div class="container3">
             <h2>Cladding</h2>
-            <img id="expandedImg3" style="width:50%" src="{{asset('images/Shiplap-cladding_White.jpg')}}" >
+            <img id="expandedImg3" style="width:50%" src="{{asset('images/Shiplap-cladding_White.jpg')}}" alt="White cladding">
             <div id="imgtext3">White</div>
           </div>
         </div>
@@ -278,7 +283,7 @@
         <div class="text-center">
           <div class="container4">
             <h2>Guttering</h2>
-            <img id="expandedImg4" style="width:50%" src="{{asset('images/GutteringDeepFlow.jpg')}}" >
+            <img id="expandedImg4" style="width:50%" src="{{asset('images/GutteringDeepFlow.jpg')}}" alt="guttering">
             <div id="imgtext4">Deep Flow</div>
           </div>
         </div>
@@ -323,13 +328,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="{{asset('images/img_roofline_2.jpg')}}" alt="First slide roofline"style="background-size:cover">
+      <img class="d-block w-100" src="{{asset('images/img_roofline_2.jpg')}}" alt="roofline repair slide1"style="background-size:cover">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{asset('images/img_roofline.jpg')}}" alt="Second slide roofline"style="background-size:cover;">
+      <img class="d-block w-100" src="{{asset('images/img_roofline.jpg')}}" alt="roofline repair slide2"style="background-size:cover;">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{asset('images/img_roofline_3.jpg')}}" alt="Third slide"style="background-size:cover">
+      <img class="d-block w-100" src="{{asset('images/img_roofline_3.jpg')}}" alt="roofline repair slide3"style="background-size:cover">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -360,7 +365,7 @@
 
       <img class="d-block w-100 mb-3" src="{{asset('images/img_EPDM_2.jpg')}}" alt="EPDM Roof 1">
 
-      <img class="d-block w-100 mb-3" src="{{asset('images/img_EPDM_1.png')}}" alt="Second slide roofline">
+      <img class="d-block w-100 mb-3" src="{{asset('images/img_EPDM_1.png')}}" alt="EPDM Roof 2">
 
 
 

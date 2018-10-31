@@ -1,4 +1,9 @@
 @extends('master')
+
+<!-- Define variabes for SEO -->
+@section('pageKeywords','east anglia, fascia, guttering, roofline, soffit, epdm')
+@section('pageDescription','East Anglia Fascia and Guttering, Contact information page.')
+
 @section('content')
   <!--Facebook like script-->
   <div id="fb-root"></div>
@@ -11,7 +16,7 @@
   }(document, 'script', 'facebook-jssdk'));</script>
 
   <!--Contact Us-->
-  <section class="">
+  <section>
     <div class="container-fluid mt-4">
       <div class="row">
         <div class="col-12 mb-3">
@@ -22,7 +27,7 @@
       <div class="row">
         <div class="col-md-4 col-sm-12 col-xs-12 mb-3">
           <div class="col-12 text-center">
-            <img style="height:60px" src="{{asset('images/icons8-phone-filled-black-50.png')}}" alt="Phone">
+            <img style="height:60px" src="{{asset('images/icons8-phone-filled-black-50.png')}}" alt="Phone icon">
           </div>
           <div class="col-12 text-center">
             <p class="mb-3">Call us</p>
@@ -32,7 +37,7 @@
         </div>
         <div class="col-md-4 col-sm-12 col-xs-12 mb-3">
           <div class="col-12 text-center">
-            <img style="height:60px" src="{{asset('images/icons8-new-message-filled-50.png')}}" alt="Email">
+            <img style="height:60px" src="{{asset('images/icons8-new-message-filled-50.png')}}" alt="Email icon">
           </div>
           <div class="col-12 text-center">
             <p class="mb-3">Email us</p>
@@ -43,7 +48,7 @@
         </div>
         <div class="col-md-4 col-sm-12 col-xs-12 mb-3">
           <div class="col-12 text-center">
-            <img style="height:60px" src="{{asset('images/icons8-facebook-like-filled-50.png')}}" alt="Email">
+            <img style="height:60px" src="{{asset('images/icons8-facebook-like-filled-50.png')}}" alt="Facebook icon">
           </div>
           <div class="col-12 text-center">
             <p class="mb-3">Like us on facebook</p>

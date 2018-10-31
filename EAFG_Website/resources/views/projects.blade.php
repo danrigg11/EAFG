@@ -1,4 +1,9 @@
 @extends('master')
+
+<!-- Define variabes for SEO -->
+@section('pageKeywords','east anglia, fascia, guttering, roofline, soffit, epdm')
+@section('pageDescription','East Anglia Fascia and Guttering, Previous projects page.')
+
 @section('content')
   <section class="">
     <div class="container-fluid mt-4">
@@ -8,7 +13,7 @@
         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 xl-2 mb-3">
           <div class="card border-secondary" style="">
             <!-- Button trigger modal -->
-            <a href="#" data-toggle="modal" data-target="#exampleModal1"><img class="card-img-top d-block w-100" src="{{asset('images/IMG_20181024_122606.jpg')}}" alt="Fascia Norwich"></a>
+            <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><img class="card-img-top d-block w-100" src="{{asset('images/IMG_20181024_122606.jpg')}}" alt="Rosewood Fascia"></a>
           </div>
         </div>
 
@@ -16,7 +21,7 @@
         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 xl-2 mb-3">
           <div class="card border-secondary" style="">
             <!-- Button trigger modal -->
-            <a href="#" data-toggle="modal" data-target="#exampleModal3"><img class="card-img-top d-block w-100" src="{{asset('images/IMG_20180926_112134.jpg')}}" alt="Fascia Norwich"></a>
+            <a href="#" data-toggle="modal" data-target="#exampleModal3"><img class="card-img-top d-block w-100" src="{{asset('images/IMG_20180926_112134.jpg')}}" alt="White soffit"></a>
           </div>
         </div>
 
@@ -24,14 +29,14 @@
         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 xl-2 mb-3">
           <div class="card border-secondary" style="">
             <!-- Button trigger modal -->
-            <a href="#" data-toggle="modal" data-target="#exampleModal2"><img class="card-img-top d-block w-100" src="{{asset('images/IMG_20180926_112049.jpg')}}" alt="Fascia Norwich"></a>
+            <a href="#" data-toggle="modal" data-target="#exampleModal2"><img class="card-img-top d-block w-100" src="{{asset('images/IMG_20180926_112049.jpg')}}" alt="white facsia"></a>
           </div>
         </div>
 
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -39,7 +44,16 @@
                 </button>
               </div>
               <div class="modal-body">
-                <img class="card-img-top d-block w-100" src="{{asset('images/IMG_20181024_122606.jpg')}}" alt="#">
+                <div class="row">
+                  <div class="col-6">
+                    <img class="card-img-top d-block w-100" src="{{asset('images/IMG_20181024_122606.jpg')}}" alt="Rosewood Fascia">
+                  </div>
+                  <div class="col-6">
+                    <img class="card-img-top d-block w-100" src="{{asset('images/IMG_20181024_122606.jpg')}}" alt="Rosewood Fascia">
+                  </div>
+                </div>
+
+
               </div>
             </div>
           </div>
@@ -55,7 +69,7 @@
                 </button>
               </div>
               <div class="modal-body">
-                <img class="card-img-top d-block w-100" src="{{asset('images/IMG_20180926_112134.jpg')}}" alt="#">
+                <img class="card-img-top d-block w-100" src="{{asset('images/IMG_20180926_112134.jpg')}}" alt="White soffit">
               </div>
             </div>
           </div>
@@ -71,7 +85,7 @@
                 </button>
               </div>
               <div class="modal-body">
-                <img class="card-img-top d-block w-100" src="{{asset('images/IMG_20180926_112049.jpg')}}" alt="#">
+                <img class="card-img-top d-block w-100" src="{{asset('images/IMG_20180926_112049.jpg')}}" alt="White fascia">
               </div>
             </div>
           </div>
