@@ -66,7 +66,7 @@
             <a href="{{ url('/services') }}"><img class="img-fluid onHover" src="{{asset('images/img_repair.png')}}" alt="repairing roofline"></a>
           </div>
           <div class="col-3">
-            <a href="{{ url('/services') }}"><img class="img-fluid onHover" src="{{asset('images/img_EPDM_1.png')}}" alt="epdm roof"></a>
+            <a href="{{ url('/services') }}"><img class="img-fluid onHover" src="{{asset('images/img_EPDM_1_menu.png')}}" alt="epdm roof"></a>
           </div>
           <div class="col-3">
             <a href="{{ url('/contact') }}"><img class="img-fluid onHover" src="{{asset('images/img_request.png')}}" alt="online details"></a>

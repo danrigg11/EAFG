@@ -210,7 +210,7 @@
               <p class="mb-1" style="font-family: numberfont, serif !important;">Wed: <span>08:00 -17:00</span></p>
               <p class="mb-1" style="font-family: numberfont, serif !important;">Thur: <span>08:00 -17:00</span></p>
               <p class="mb-1" style="font-family: numberfont, serif !important;">Fri: <span>08:00 -17:00</span></p>
-              <p class="mb-1">Sat: Closed</p>
+              <p class="mb-1" style="font-family: numberfont, serif !important;">Sat: <span>08:00 -17:00</span></p>
               <p class="mb-1">Sun: Closed</p>
             </div>
           </div>

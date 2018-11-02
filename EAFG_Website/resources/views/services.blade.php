@@ -316,7 +316,7 @@
 <div id="rooflineRepairSection" style="display: none;">
   <div class="container">
     <h1>Roofline Repair</h1>
-    <p>If you live in East Anglia and are looking to repair, replace or upgrade your existing roofline, our team of professional installers with <span style="font-family: numberfont, serif !important;">30+</span> years experience are here to help. Not only will a new roofline from EAFG increase the weatherproofing of your home, our long lasting materials require very little maintenance, a roofline from EAFG is a possitive investment for your property.</p>
+    <p>If you live in East Anglia and are looking to repair, replace or upgrade your existing roofline, our team of professional installers with <span style="font-family: numberfont, serif !important;">40</span> years experience are here to help. Not only will a new roofline from EAFG increase the weatherproofing of your home, our long lasting materials require very little maintenance, a roofline from EAFG is a possitive investment for your property.</p>
     <p>We can install everything from uPVC fascias and soffits to guttering and rainwater systems, helping your roofline run properly.</p>
     </div>
 
@@ -365,7 +365,7 @@
 
       <img class="d-block w-100 mb-3" src="{{asset('images/img_EPDM_2.jpg')}}" alt="EPDM Roof 1">
 
-      <img class="d-block w-100 mb-3" src="{{asset('images/img_EPDM_1.png')}}" alt="EPDM Roof 2">
+      <img class="d-block w-100 mb-3" src="{{asset('images/img_EPDM_1.jpg')}}" alt="EPDM Roof 2">
 
 
 
