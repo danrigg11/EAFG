@@ -92,7 +92,7 @@
         </div>
         <div style="margin-top:20px" class="">
           <h2>Individualized Roofing and Roofline Options</h2>
-          <p>At East Anglian Fascia and Guttering ltd We will provide you with a full consultation to explain all of your available options so that you can choose the roofing or roofline plan that’s right for your home or business. We will work with you and adhere to your personal needs. 99% of the time you will deal with one person from start to finish!  That person will visit, quote, meet and fit your requirements! This cuts out the need for expensive commission based sales people.</p>
+          <p>At East Anglian Fascia and Guttering ltd We will provide you with a full consultation to explain all of your available options so that you can choose the roofing or roofline plan that’s right for your home or business. We will work with you and adhere to your personal needs. You will deal with the same two people from start to finish! That person will visit, quote, meet and fit your requirements! This cuts out the need for expensive commission based sales people.</p>
         </div>
       </div>
     </section>
