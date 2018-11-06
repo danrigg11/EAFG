@@ -25,3 +25,9 @@ Route::get('services', function () {
 Route::get('projects', function () {
     return view('projects');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('details', 'DetailController');
